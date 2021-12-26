@@ -1,9 +1,13 @@
 plugins {
     id 'com.android.application'
 }
+repositories {
+    mavenCentral()
+    google()
+}
 
 android {
-    compileSdk 31
+    compileSdk 28
 
     defaultConfig {
         applicationId "com.example.myapplication"
